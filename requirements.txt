@@ -1,6 +1,4 @@
-
-
-highrise-bot-sdk
+highrise-bot-sdk==23.1.0
 yt-dlp
 aiohttp
 websockets
