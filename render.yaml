@@ -2,6 +2,7 @@ services:
   - type: web
     name: highrise-radio-bot
     runtime: python
+    pythonVersion: "3.11.9"
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
     envVars:
@@ -11,3 +12,4 @@ services:
         value: 66cfdc844410d5f4f7dafacd
       - key: HR_OWNER
         value: SXP3
+
